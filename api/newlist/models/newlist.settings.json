@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newlists",
+  "info": {
+    "name": "newlist"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "text"
+    },
+    "createTime": {
+      "type": "datetime"
+    },
+    "updateTime": {
+      "type": "datetime"
+    }
+  }
+}
